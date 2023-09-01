@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#calctemp{
+    background-color: wheat;
+    padding: 10vh;
+    min-height: 280px;
+    border: 3px dotted black;
+    border-radius: 50px;
+}
+
+.temp-head{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#celsius-input{
+    width: 164px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid black;
+    /* outline: none; */
+    padding: 4px;
+}
+
+#input{
+    width: 105px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.convert-head{
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-flex;
+    /* margin-right: 47px; */
+    position: relative;
+    right: 10px;
+    margin: 0px 42px;
+}
+
+#convert{
+    width: 119px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+#calculate{
+    width: 150px;
+    border-radius: 28px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgb(218 229 220);
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#result{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(251, 8, 8);
+}
